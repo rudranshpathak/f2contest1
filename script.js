@@ -33,7 +33,7 @@ let arr = [
     //Write your code here, just console.log
     newArr=[];
     for(let i=0;i<arr.length;i++){
-        if(arr[i].professional!='admin'){
+        if(arr[i].profession!='admin'){
             newArr.push(arr[i]);
         }
     }
